@@ -4,13 +4,12 @@ import css from "../assets/css.png";
 import git from "../assets/git.png";
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
-import mu5 from "../assets/mu5.png";
-import node from "../assets/node.png";
 import python from "../assets/python.png";
 import react from "../assets/react.png";
 import sass from "../assets/sass.png";
 
 import mij from "../assets/mij.png";
+import circle from '../assets/circle.svg';
 
 import java from "../assets/java.png";
 import golang from "../assets/golang.png";
@@ -46,4 +45,5 @@ export default {
   golang,
   webdev,
   divalto,
+  circle,
 };

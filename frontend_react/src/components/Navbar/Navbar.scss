@@ -5,10 +5,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem, 2rem;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(85, 58, 0, 0.2);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-    background: rgba(39, 51, 89, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(0, 0, 0, 0.3);
     position: fixed;
     z-index: 2;
@@ -62,12 +62,12 @@
             transition: all 0.2s ease-in-out;
 
             &:hover{
-                color: #6b7688;
+                color: #747474b6;
             }
         }
         &:hover{
             div{
-                background: #6b7688;
+                background: #8585859c;
             }
         }
     }

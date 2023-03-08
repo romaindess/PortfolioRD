@@ -1,6 +1,5 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import {AiFillEye, AiFillGithub} from 'react-icons/ai'
 import { AppWrap, MotionWrap } from '../../wrapper';
 import {motion} from 'framer-motion'
 import {urlFor, client} from '../../client'
@@ -69,14 +68,14 @@ const Skills = () => {
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
                     </motion.div>
-                    <ReactTooltip
+                    {/* <ReactTooltip
                       id={work.name}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
-                      {work.desc}
-                    </ReactTooltip>
+                      
+                    </ReactTooltip> */}
                   </>
                 ))}
               </motion.div>
